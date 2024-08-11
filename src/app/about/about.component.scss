@@ -1,0 +1,19 @@
+.histoire-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+  
+  .histoire-container h1 {
+    font-family: 'Bubbleboddy Neue', sans-serif;
+    color: var(--color-accent);
+  }
+  
+  .histoire-container p {
+    font-family: 'Comfortaa', sans-serif;
+    color: var(--color-dark);
+    margin: 20px 0;
+    line-height: 1.6;
+  }
