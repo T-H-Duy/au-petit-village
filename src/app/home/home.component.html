@@ -1,27 +1,22 @@
 <div class="home-container">
-    <h1>Bienvenue chez "Au petit village"</h1>
-    <a routerLink="/about" class="learn-more">En savoir plus sur notre histoire</a>
-    <p>Nous créons des figurines faites main, inspirées des aventures d'Astérix & Obélix.</p>
-    <p>Découvrez notre collection unique de figurines artisanales, fabriquées avec passion et précision.</p>
-    
-  </div>
-  <div class="products">
+    <h1>Au petit village</h1>
+    <a routerLink="/about" class="learn-more">Notre histoire</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div class="products">
   <div class="sort-and-search"> 
     <app-search (search)="searchText = $event"></app-search>
     <app-sort (sort)="handleSort($event)"></app-sort>
   </div>
-  
-         
-     <div class="catalog">
+    <div class="catalog">
       <div *ngFor="let product of products | search:searchText | sort:sortField:sortDirection" class="product-card">
         <a [routerLink]="['/product', product.id]" class="product-link">
           <img [src]="product.image" alt="{{product.name}}">
         <div class="product-info"> 
           <h2>{{product.name}}</h2>
-          
           <div class="price">{{ product.price | currency: 'EUR':'symbol':'1.2-2' }}</div>
          </div>
         </a>
       </div>
     </div>
-  </div>
+</div>

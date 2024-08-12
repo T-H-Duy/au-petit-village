@@ -16,23 +16,23 @@ export class ProductService {
   private products: Product[] = [
     {
       "id": 1,
-      "name": "Figurine Astérix",
-      "description": "Retrouvez une figurine d'Astérix le Gaulois fabriquée en vinyle aux dimensions grandissimes !.",
+      "name": "Astérix",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "price": 34.99,
       "image": "assets/figurine_asterix.jpg"
     },
     {
       "id": 2,
-      "name": "Figurine Obélix",
-      "description": "Découvrez une superbe figurine d’Obélix tenant Idéfix dans ses bras accompagnée d'un livre ! .",
-      "price": 39.99,
+      "name": "Obélix",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 37.99,
       "image": "assets/figurine_obelix.jpg"
     },
     {
       "id": 3,
-      "name": "Figurine Idéfix",
-      "description": "Retrouvez une figurine d'Idéfix dans un format magistrale fabriquée en PVC, du haut de ces 30 cm",
-      "price": 29.99,
+      "name": "Idéfix",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 25.99,
       "image": "assets/figurine_idefix.jpg"
     },
 
