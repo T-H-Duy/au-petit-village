@@ -1,12 +1,29 @@
-import { Component } from '@angular/core';
+
+import { Component, OnInit } from '@angular/core';
+import { ProductService, Product } from '../product.service';
+import { Router } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-product-list',
-  standalone: true,
-  imports: [],
   templateUrl: './product-list.component.html',
-  styleUrl: './product-list.component.scss'
+  styleUrls: ['./product-list.component.scss'],
+  standalone: true,
+  imports: [CommonModule, RouterModule]
 })
-export class ProductListComponent {
+export class ProductListComponent implements OnInit {
+  products: Product[] = [];
 
+  constructor(private productService: ProductService, private router: Router) { }
+
+  ngOnInit(): void {
+    this.productService.getProducts().subscribe(products => {
+      this.products = products;
+    });
+  }
+
+  viewProduct(productId: number): void {
+    this.router.navigate(['/product', productId]);
+  }
 }
