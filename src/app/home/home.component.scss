@@ -12,19 +12,20 @@
   .home-container h1 {
     font-family: 'Bubbleboddy Neue', sans-serif;
     color: var(--color-accent);
+    padding: 20px;
   }
   
   .home-container p {
     font-family: 'Comfortaa', sans-serif;
     color: var(--color-dark);
     text-align: left;
-    margin: 10px 0;
+    margin: 50px;
   }
   
   .learn-more {
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 20px;
     background-color: var(--color-dark);
     color: var(--color-secondary);
     text-decoration: none;

@@ -18,24 +18,58 @@ export class ProductService {
       "id": 1,
       "name": "Astérix",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "price": 34.99,
+      "price": 44.99,
       "image": "assets/figurine_asterix.jpg"
     },
     {
       "id": 2,
       "name": "Obélix",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "price": 37.99,
+      "price": 46.99,
       "image": "assets/figurine_obelix.jpg"
     },
     {
       "id": 3,
       "name": "Idéfix",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "price": 25.99,
+      "price": 40.99,
       "image": "assets/figurine_idefix.jpg"
     },
-
+    {
+      "id": 4,
+      "name": "Assurancetourix",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 12.99,
+      "image": "assets/figurine_assurancetourix.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Panoramix",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 15.99,
+      "image": "assets/figurine_panoramix.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Falbala",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 14.99,
+      "image": "assets/figurine_falbala.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cetautomatix",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 11.99,
+      "image": "assets/figurine_cetautomatix.jpg"
+    },
+    {
+      "id": 8,
+      "name": "César",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "price": 17.99,
+      "image": "assets/figurine_cesar.jpg"
+    },
   ];
 
   constructor() { }

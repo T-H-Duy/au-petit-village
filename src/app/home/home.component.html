@@ -1,11 +1,18 @@
 <div class="home-container">
     <h1>Au petit village</h1>
     <a routerLink="/about" class="learn-more">Notre histoire</a>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
 </div>
 <div class="products">
-  <div class="sort-and-search"> 
+  <div class="sort-and-search">
+    <p>Rechercher</p> 
     <app-search (search)="searchText = $event"></app-search>
+    <p>Trier</p>
     <app-sort (sort)="handleSort($event)"></app-sort>
   </div>
     <div class="catalog">
@@ -14,7 +21,7 @@
           <img [src]="product.image" alt="{{product.name}}">
         <div class="product-info"> 
           <h2>{{product.name}}</h2>
-          <div class="price">{{ product.price | currency: 'EUR':'symbol':'1.2-2' }}</div>
+          <div class="price">{{ product.price | currency: 'EUR':'symbol':'1.2-2'}}</div>
          </div>
         </a>
       </div>
