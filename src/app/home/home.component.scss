@@ -12,7 +12,9 @@
   .home-container h1 {
     font-family: 'Bubbleboddy Neue', sans-serif;
     color: var(--color-accent);
+    background-color: var(--color-primary);
     padding: 20px;
+    font-size: 3.5em;
   }
   
   .home-container p {
@@ -123,15 +125,15 @@
         align-items: center;
     }
   
-    .catalog {
-        flex-direction: column;
-        align-items: center;
-    }
+  .catalog {
+    flex-direction: column;
+    align-items: center;
+  }
   
-    .product-card {
-        width: 90%;
-        max-width: 400px;
-    }
+  .product-card {
+    width: 90%;
+    max-width: 400px;
+  }
   }
   
   @media (max-width: 480px) {

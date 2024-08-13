@@ -9,34 +9,34 @@
     height: auto;
   }
   
-  .social-media {
+.social-media {
     display: flex;
     gap: 20px;
     margin-bottom: 10px;
   }
   
-  .social-media a {
+.social-media a {
     text-decoration: none;
     color: var(--color-dark);
   }
   
-  .social-media a img {
+.social-media a img {
     width: 30px;  
     height: 30px; 
   }
   
-  .footer p {
+.footer p {
     margin: 0;
   }
   
-  @media (max-width: 600px) {
-    .social-media {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .social-media a img {
-      width: 25px;  
-      height: 25px; 
-    }
+@media (max-width: 600px) {
+  .social-media {
+    flex-direction: column;
+    gap: 10px;
   }
+  
+  .social-media a img {
+    width: 25px;  
+    height: 25px; 
+  }
+}

@@ -69,7 +69,7 @@ export class ProductService {
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "price": 17.99,
       "image": "assets/figurine_cesar.jpg"
-    },
+    }
   ];
 
   constructor() { }
