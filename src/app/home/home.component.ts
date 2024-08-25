@@ -7,13 +7,11 @@ import { SearchPipe } from '../search.pipe';
 import { SortComponent } from '../sort/sort.component';
 import { SearchComponent } from '../search/search.component';
 import { RouterModule } from '@angular/router';
-import { ProductListComponent } from '../product-list/product-list.component';
-
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, RouterModule, SortPipe, SearchPipe, ProductListComponent, SearchComponent, SortComponent],
+  imports: [CommonModule, RouterModule, SortPipe, SearchPipe, SearchComponent, SortComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
